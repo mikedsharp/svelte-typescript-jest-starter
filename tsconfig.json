@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+
+  "include": ["src/**/*", "node_modules/jest-dom"],
+  "exclude": ["node_modules/*", "public/*"],
+  "compilerOptions": {
+    "types": ["jest", "node"],
+    "esModuleInterop": true,
+    "isolatedModules": false
+  }
+}
