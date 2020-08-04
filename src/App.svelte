@@ -1,5 +1,5 @@
 <script lang="ts">
-  export let name: string;
+
 </script>
 
 <style lang="scss">
@@ -8,6 +8,10 @@
     padding: 1em;
     max-width: 240px;
     margin: 0 auto;
+
+    * {
+      background-color: green;
+    }
   }
 
   h1 {
@@ -25,7 +29,7 @@
 </style>
 
 <main>
-  <h1>Hello {name}!</h1>
+  <h1>Hello world!</h1>
   <p>
     Visit the
     <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
