@@ -1,6 +1,8 @@
 import { render } from '@testing-library/svelte';
 import App from './App.svelte';
 
+import '@testing-library/jest-dom';
+
 describe('something', () => {
   it('should equal true', () => {
     const { getByText } = render(App);

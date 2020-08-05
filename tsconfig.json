@@ -1,13 +1,9 @@
 {
   "extends": "@tsconfig/svelte/tsconfig.json",
-
-  "include": [
-    "src/**/*",
-    "node_modules/jest-dom",
-    "./node_modules/@testing-library/jest-dom/extend-expect.d.ts"
-  ],
-  "exclude": ["node_modules/*", "__sapper__/*", "public/*"],
+  "include": ["src/**/*", "node_modules/jest-dom"],
+  "exclude": ["node_modules/*", "public/*"],
   "compilerOptions": {
+    "types": ["node", "jest"],
     "esModuleInterop": true
   }
 }
