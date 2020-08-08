@@ -3,7 +3,8 @@
   "include": ["src/**/*", "node_modules/jest-dom"],
   "exclude": ["node_modules/*", "public/*"],
   "compilerOptions": {
-    "types": ["node", "jest"],
+    "types": ["node", "jest", "svelte"],
+    "typeRoots": ["./node_modules/@types", "./src/@types"],
     "esModuleInterop": true
   }
 }
