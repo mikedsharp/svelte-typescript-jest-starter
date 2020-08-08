@@ -1,20 +1,12 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
----
+# svelte-typescript-jest-starter
+## I've gone through the pain of adding Jest and tweaking the Svelte-Typescript-Rollup configs so you don't have to!
+This project was initially generated from `sveltejs/template svelte-typescript-app`, but that template didn't include testing or have any examples of Sass/SCSS working, so I added that.
 
-# svelte app
+There's also a lot of faffing around with using .js and .svelte files as imports in a .ts file that i've tried to sort out without any configuration (running and building work right now, tests still have issues with imports of .svelte modules from node_modules but i'm working on it)
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
+## I've retained the original instructions from the base svelte template (see below)
 
 ## Get started
 
@@ -55,20 +47,6 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 
 ```js
 "start": "sirv public --single"
-```
-
-## Using TypeScript
-
-This template comes with a script to set up a TypeScript development environment, you can run it immediately after cloning the template with:
-
-```bash
-node scripts/setupTypeScript.js
-```
-
-Or remove the script via:
-
-```bash
-rm scripts/setupTypeScript.js
 ```
 
 ## Deploying to the web
